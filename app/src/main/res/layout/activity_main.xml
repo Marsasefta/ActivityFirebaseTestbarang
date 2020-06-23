@@ -34,7 +34,6 @@
         android:layout_marginRight="8dp"
         android:text="@string/txtjudul1"
         android:textSize="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnTambah"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,7 +50,6 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/btTambah"
-        app:layout_constraintBottom_toTopOf="@+id/btnLihat"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.414"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,7 +57,7 @@
         app:layout_constraintVertical_bias="0.252"/>
 
     <Button
-        android:id="@id/btnLihat"
+        android:id="@+id/bLihat"
         android:layout_width="234dp"
         android:layout_height="59dp"
         android:layout_marginStart="8dp"
@@ -76,6 +74,25 @@
         app:layout_constraintTop_toBottomOf="@+id/btnTambah"
         app:layout_constraintVertical_bias="0.0"/>
 
+    <Button
+        android:id="@+id/bt_edit_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/update"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <Button
+        android:id="@+id/bt_delete_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/del"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="190dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

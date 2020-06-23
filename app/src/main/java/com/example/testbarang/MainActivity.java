@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         bTambah = (Button) findViewById(R.id.btnTambah);
-        bLihat = (Button) findViewById(R.id.btnLihat);
+        bLihat = (Button) findViewById(R.id.bLihat);
 
         bTambah.setOnClickListener(new View.OnClickListener(){
             @Override
